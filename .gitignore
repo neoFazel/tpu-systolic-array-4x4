@@ -1,0 +1,42 @@
+# ==========================================
+# Vivado Logs & Temporary Files
+# ==========================================
+*.log
+*.jou
+*.str
+*.pb
+*.wdb
+*.vcd
+
+# ==========================================
+# Vivado Auto-generated Folders (Very Heavy)
+# ==========================================
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# ==========================================
+# OS & Editor Specific
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+
+# Xilinx Simulator runtime directories & files
+xsim.dir/
+*.wcfg.bak
+xvlog.pb
+xelab.pb
+xsim.pb
+tb_behav.wcfg
+tb_func_synth.wcfg
+
+
+# In-memory / Report files
+*.rpt
+*.dcpgit 
