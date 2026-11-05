@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module dff_reg_32b #(
-    parameter DATA_WIDTH = 32
+    parameter int DATA_WIDTH = 32
 )(
     input   clk,
             rst,
