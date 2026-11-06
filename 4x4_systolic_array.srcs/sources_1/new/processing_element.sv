@@ -35,14 +35,14 @@ assign mult_prod = a_in * b_in;
 assign mult_prod_ext = {{(ACC_WIDTH - 2*DATA_WIDTH){1'b0}}, mult_prod};
 // step 3
 assign adder_sum = mult_prod_ext + mux_out;
-
+    
 // ================================
 // Sub-module instantiations
 // ================================
 // MUX: select's 0 when valid ==0 and selec't cout when valid =1
 mux_21 feedback_mux(
     .ctrl(valid),
-    .in(adder_sum),
+    .in(c_out),
     .out(mux_out)
 );
 // R1: Accumulator register
